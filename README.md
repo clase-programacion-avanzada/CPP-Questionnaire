@@ -1,10 +1,7 @@
-# Preguntas teóricas de C++ 
-
-A continuación encontrará una compilación de preguntas teóricas para prepararse para el exámen. Junto a una breve explicación de la respuesta correcta: 
-
 1. **Una estructura de datos es un arreglo, en donde cada uno de los campos de la estructura tiene un índice que lo identifica.**
     - [ ] Falso
     - [ ] Verdadero
+
     <details>
       <summary>Ver respuesta</summary>
       La respuesta correcta es **Verdadero**.
@@ -13,6 +10,7 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
 2. **Un apuntador es una variable que solamente puede contener una dirección de memoria.**
     - [ ] Falso
     - [ ] Verdadero
+
     <details>
       <summary>Ver respuesta</summary>
       La respuesta correcta es **Verdadero**.
@@ -21,6 +19,7 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
 3. **Hay dos formas de enviar parámetros a una función, que se conocen como paso de parámetros por valor y paso de parámetros por referencia.**
     - [ ] Falso
     - [ ] Verdadero
+
     <details>
       <summary>Ver respuesta</summary>
       La respuesta correcta es **Verdadero**.
@@ -29,6 +28,7 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
 4. **Un arreglo es un apuntador a la primera casilla de los datos que contiene, y se puede mover a cualquier otra casilla, es decir que se puede poner a apuntar a cualquier casilla dentro del arreglo.**
     - [ ] Falso
     - [ ] Verdadero
+
     <details>
       <summary>Ver respuesta</summary>
       La respuesta correcta es **Falso**.
@@ -37,6 +37,7 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
 5. **Si se tiene la dirección de memoria de una variable, se puede modificar el dato que contiene esa variable a través de su dirección.**
     - [ ] Falso
     - [ ] Verdadero
+
     <details>
       <summary>Ver respuesta</summary>
       La respuesta correcta es **Falso**.
@@ -47,6 +48,7 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
     - [ ] struct p Persona;
     - [ ] Persona p;
     - [ ] Persona *p;
+
     <details>
       <summary>Ver respuesta</summary>
       La respuesta correcta es **struct Persona *p;**.
@@ -57,6 +59,7 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
     - [ ] *
     - [ ] $
     - [ ] #
+
     <details>
       <summary>Ver respuesta</summary>
       La respuesta correcta es **\***.
@@ -66,7 +69,8 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
     - [ ] Pasando el apuntador a la variable que es parámetro de la función y pasando el alias (o referencia) de la variable
     - [ ] Pasando una copia del dato que contiene la variable y pasando la dirección de memoria de la variable
     - [ ] Pasando un apuntador a la variable y creando memoria dinámica dentro de la función
-    - [ ] Pasando una copia de la estructura que contiene el parámetro y pasando una des referenciación del parámetro que se quiere modificar
+    - [ ] Pasando una copia de la estructura que contiene el parámetro y pasando una des-referenciación del parámetro que se quiere modificar
+
     <details>
       <summary>Ver respuesta</summary>
       La respuesta correcta es **Pasando el apuntador a la variable que es parámetro de la función y pasando el alias (o referencia) de la variable**.
@@ -77,6 +81,7 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
     - [ ] Crea un apuntador a null (NULL o nullptr), con la memoria reservada
     - [ ] Permite crear memoria de forma dinámica, retornando el dato que contiene la memoria. Si no hay dato, retorna NULL o nullptr
     - [ ] Busca un espacio en memoria para el tipo de dato indicado, reserva ese espacio y retorna su dirección
+
     <details>
       <summary>Ver respuesta</summary>
       La respuesta correcta es **Busca un espacio en memoria para el tipo de dato indicado, reserva ese espacio y retorna su dirección**.
@@ -87,6 +92,7 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
     - [ ] `&ap.a = 5;`
     - [ ] `*ap->a = 5;`
     - [ ] `ap->a = 5;`
+
     <details>
       <summary>Ver respuesta</summary>
       La respuesta correcta es **ap->a = 5;**.
@@ -106,22 +112,21 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
     - [ ] Es incorrecta la declaración de &y y no se puede declarar un puntero de tipo void.
     - [ ] El código no tiene errores.
 
-<details>
-  <summary>Ver respuesta</summary>
-  La opción correcta es la **3**. La declaración `int x, *p, &y;` es incorrecta ya que "&y" intenta declarar una referencia, lo cual no es válido en este contexto. Además, la línea `void *r = &x;` es correcta y no contiene errores.
-</details>
+    <details>
+      <summary>Ver respuesta</summary>
+      La opción correcta es la **3**. La declaración `int x, *p, &y;` es incorrecta ya que "&y" intenta declarar una referencia, lo cual no es válido en este contexto. Además, la línea `void *r = &x;` es correcta y no contiene errores.
+    </details>
 
 12. **Un arreglo unidimensional se puede indexar con la aritmética de punteros.**
-
     - [ ] Verdadero.
     - [ ] Falso.
 
-<details>
-  <summary>Ver respuesta</summary>
-  La respuesta correcta es **Verdadero**. En C y C++, un arreglo unidimensional puede ser tratado como un puntero al primer elemento del arreglo, lo que permite utilizar la aritmética de punteros para acceder a sus elementos.
-</details>
+    <details>
+      <summary>Ver respuesta</summary>
+      La respuesta correcta es **Verdadero**. En C y C++, un arreglo unidimensional puede ser tratado como un puntero al primer elemento del arreglo, lo que permite utilizar la aritmética de punteros para acceder a sus elementos.
+    </details>
 
-13.  **¿Cuál de las siguientes líneas genera errores de compilación?**
+13. **¿Cuál de las siguientes líneas genera errores de compilación?**
 
     ```cpp
     1. float val1 = 5.f;
@@ -137,12 +142,10 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
     - [ ] Línea 1 y 3
     - [ ] Línea 4
 
-<details>
-  <summary>Ver respuesta</summary>
-  La opción correcta es la **4**. La línea 1 (`float val1 = 5.f;`) es correcta y no genera errores de compilación. La línea 3 (`float val3 = 3f;`) genera un error de compilación debido al sufijo "f" utilizado incorrectamente. Las demás líneas tampoco generan errores de compilación.
-</details>
-
-
+    <details>
+      <summary>Ver respuesta</summary>
+      La opción correcta es la **4**. La línea 1 (`float val1 = 5.f;`) es correcta y no genera errores de compilación. La línea 3 (`float val3 = 3f;`) genera un error de compilación debido al sufijo "f" utilizado incorrectamente. Las demás líneas tampoco generan errores de compilación.
+    </details>
 
 14. **Según el siguiente código, ¿la asignación de la línea 3 y 4 apunta a la misma posición de memoria?**
 
@@ -156,57 +159,52 @@ A continuación encontrará una compilación de preguntas teóricas para prepara
     - [ ] Verdadero
     - [ ] Falso
 
-<details>
-  <summary>Ver respuesta</summary>
-  La respuesta correcta es **Falso**.
-</details>
+    <details>
+      <summary>Ver respuesta</summary>
+      La respuesta correcta es **Falso**.
+    </details>
 
+15. **Una estructura (struct) en C++ puede estar compuesta de funciones además de variables.**
+    - [ ] Falso
+    - [ ] Verdadero
 
-15.    **Una estructura (struct) en C++ puede estar compuesta de funciones además de variables.**
+    <details>
+      <summary>Ver respuesta</summary>
+      La respuesta correcta es **Falso**.
+    </details>
 
-       - [ ] Falso
-       - [ ] Verdadero
+16. **Una vez que un arreglo dinámico ha sido creado en C++ con una cierta cantidad de elementos, no puede redimensionarse para contener más o menos elementos.**
+    - [ ] Falso
+    - [ ] Verdadero
 
-<details>
-  <summary>Ver respuesta</summary>
-  La respuesta correcta es **Falso**.
-</details>
+    <details>
+      <summary>Ver respuesta</summary>
+      La respuesta correcta es **Falso**.
+    </details>
 
-16.   **Una vez que un arreglo dinámico ha sido creado en C++ con una cierta cantidad de elementos, no puede redimensionarse para contener más o menos elementos.**
+17. **Una cadena de caracteres representada como un arreglo de caracteres termina con un carácter nulo (10), que indica el final de la cadena**
+    - [ ] Falso
+    - [ ] Verdadero
 
-- [ ] Falso
-- [ ] Verdadero
+    <details>
+      <summary>Ver respuesta</summary>
+      La respuesta correcta es **Verdadero**.
+    </details>
 
-<details>
-  <summary>Ver respuesta</summary>
-  La respuesta correcta es **Falso**.
-</details>
+18. **En C++, tanto los archivos binarios como los de texto se pueden abrir utilizando objetos de las clases ifstream (para lectura) y ofstream (para escritura), pero es necesario especificar el modo (binario o texto) en el que se abrirá el archivo**.
+    - [ ] Falso
+    - [ ] Verdadero
 
-17.    **Una cadena de caracteres representada como un arreglo de caracteres termina con un carácter nulo (10), que indica el final de la cadena**
-      - [ ] Falso
-      - [ ] Verdadero
+    <details>
+      <summary>Ver respuesta</summary>
+      La respuesta correcta es **Verdadero**.
+    </details>
 
-<details>
-  <summary>Ver respuesta</summary>
-  La respuesta correcta es **Verdadero**.
-</details>
+19. **Un arreglo unidimensional no puede contener valores tipo struct**
+    - [ ] Falso
+    - [ ] Verdadero
 
-1.    **En C++, tanto los archivos binarios como los de texto se pueden abrir utilizando objetos de las clases ifstream (para lectura) y ofstream (para escritura), pero es necesario especificar el modo (binario o texto) en el que se abrirá el archivo**.
-
-      - [ ] Falso
-      - [ ] Verdadero
-
-<details>
-  <summary>Ver respuesta</summary>
-  La respuesta correcta es **Verdadero**.
-</details>
-
-19.   **Un arreglo unidimensional no puede contener valores tipo struct**
-
-      - [ ] Falso
-      - [ ] Verdadero
-
-<details>
-  <summary>Ver respuesta</summary>
-  La respuesta correcta es **Falso**.
-</details>
+    <details>
+      <summary>Ver respuesta</summary>
+      La respuesta correcta es **Falso**.
+    </details>
